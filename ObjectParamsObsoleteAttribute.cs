@@ -1,7 +1,7 @@
 namespace
 #if SunamoCollectionsShared
 SunamoCollectionsShared
-#else SunamoAttributes
+#else
 SunamoAttributes
 #endif
 ;
