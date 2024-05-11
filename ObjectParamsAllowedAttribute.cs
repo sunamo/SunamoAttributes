@@ -1,4 +1,6 @@
 
+namespace SunamoAttributes;
+
 
 namespace
 #if SunamoCollections
