@@ -5,7 +5,7 @@ namespace
 #if SunamoCollections
 SunamoCollections
 #else
-    SunamoAttributes
+SunamoAttributes
 #endif
 ;
 
