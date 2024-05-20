@@ -1,6 +1,3 @@
-
-
-
 namespace
 #if SunamoCollections
 SunamoCollections
@@ -8,8 +5,6 @@ SunamoCollections
 SunamoAttributes
 #endif
 ;
-
-
 /// <summary>
 /// ObjectParamsUse
 /// </summary>
