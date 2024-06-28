@@ -1,3 +1,5 @@
+
+namespace SunamoAttributes;
 /// <summary>
 /// ObjectParamsUse
 /// </summary>
