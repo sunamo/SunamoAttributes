@@ -1,6 +1,7 @@
 namespace SunamoAttributes;
+
 /// <summary>
-/// ObjectUse
+///     ObjectUse
 /// </summary>
 public class TParamsObsoleteAttribute : Attribute
 {

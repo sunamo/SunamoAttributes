@@ -1,6 +1,7 @@
 namespace SunamoAttributes;
+
 /// <summary>
-/// ObjectParamsUse
+///     ObjectParamsUse
 /// </summary>
 public class ObjectParamsAllowedAttribute : Attribute
 {
