@@ -8,3 +8,4 @@ global using System.Linq;
 global using SunamoAttributes._sunamo.SunamoExceptions;
 global using System.Diagnostics;
 global using System.Net;
+global using System.Diagnostics.CodeAnalysis;
