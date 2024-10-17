@@ -3,10 +3,6 @@ namespace SunamoAttributes._sunamo;
 //namespace SunamoAttributes._sunamo.SunamoExceptions._AddedToAllCsproj;
 internal class FS
 {
-    internal static void CreateUpfoldersPsysicallyUnlessThere(string nad)
-    {
-        CreateFoldersPsysicallyUnlessThere(Path.GetDirectoryName(nad));
-    }
     internal static void CreateFoldersPsysicallyUnlessThere(string nad)
     {
         ThrowEx.IsNullOrEmpty("nad", nad);
@@ -39,5 +35,10 @@ nad
                 Directory.CreateDirectory(folder);
             }
         }
+    }
+
+    internal static void CreateUpfoldersPsysicallyUnlessThere(string nad)
+    {
+        CreateFoldersPsysicallyUnlessThere(Path.GetDirectoryName(nad));
     }
 }
