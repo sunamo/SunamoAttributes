@@ -13,7 +13,7 @@ internal class SH
 
     internal static string NullToStringOrDefault(object n)
     {
-        return n == null ? " " + "(null)" : "" + n;
+        return n == null ? " " + "(null)" : " " + n;
     }
 
     internal static List<string> SplitCharMore(string s, params char[] dot)
