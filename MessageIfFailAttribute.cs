@@ -6,6 +6,6 @@ public class MessageIfFailAttribute : Attribute
 
     public MessageIfFailAttribute(string message)
     {
-        this.message = this.message;
+        this.message = message;
     }
 }
