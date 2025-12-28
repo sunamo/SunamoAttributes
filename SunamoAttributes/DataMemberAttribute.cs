@@ -1,3 +1,4 @@
+// variables names: ok
 namespace SunamoAttributes;
 
 public class DataMemberAttribute : Attribute
