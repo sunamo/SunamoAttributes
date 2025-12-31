@@ -1,4 +1,3 @@
-// variables names: ok
 namespace SunamoAttributes;
 
 public class OuterObjectMapping //: Dictionary<Type, string>

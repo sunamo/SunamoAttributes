@@ -1,4 +1,3 @@
-// variables names: ok
 namespace SunamoAttributes;
 
 public class MessageIfFailAttribute : Attribute
