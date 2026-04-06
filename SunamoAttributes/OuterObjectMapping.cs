@@ -6,7 +6,7 @@ namespace SunamoAttributes;
 public class OuterObjectMapping
 {
     /// <summary>
-    /// Gets or sets the primary key property. Note: DB can't have primary key, it's only indicator that any other element in DB is not the same as primary key.
+    /// Gets or sets the primary key property. Used as an indicator that distinguishes records in the database, not an actual database primary key constraint.
     /// </summary>
     public PropertyInfo? PrimaryKey { get; set; } = null;
 
