@@ -1,25 +1,21 @@
 # SunamoAttributes
 
-Shared attributes for packages
+Shared custom attributes for the Sunamo NuGet package ecosystem. Provides reusable attribute classes for serialization, mapping, validation, and deprecation marking in .NET applications.
 
-## Overview
+## Included Attributes
 
-SunamoAttributes is part of the Sunamo package ecosystem, providing modular, platform-independent utilities for .NET development.
-
-## Main Components
-
-### Key Classes
-
-- **DataMemberAttribute**
-- **IgnoreAttribute**
-- **InnerObjectAttribute**
-- **MessageIfFailAttribute**
-- **NotTranslateAttribute**
-- **ObjectObsoleteAttribute**
-- **ObjectParamsAllowedAttribute**
-- **ObjectParamsObsoleteAttribute**
-- **OuterObjectAttribute**
-- **OuterObjectMapping**
+- **DataMemberAttribute** - Specifies the name of a data member for serialization or mapping.
+- **IgnoreAttribute** - Marks properties or fields to be ignored during processing or serialization.
+- **InnerObjectAttribute** - Base attribute for marking inner object properties or fields.
+- **MessageIfFailAttribute** - Specifies a custom error message displayed on validation or operation failure.
+- **NotTranslateAttribute** - Marks strings or properties that should not be translated.
+- **ObjectObsoleteAttribute** - Marks methods as obsolete when accepting object parameters.
+- **ObjectParamsAllowedAttribute** - Marks methods as intentionally accepting object params parameters.
+- **ObjectParamsObsoleteAttribute** - Marks methods as obsolete when accepting object params parameters.
+- **OuterObjectAttribute** - Marks outer object properties or classes.
+- **OuterObjectMapping** - Represents mapping information for an outer object including primary key and property information.
+- **PrimaryKeyAttribute** - Marks a property as a primary key identifier.
+- **TParamsObsoleteAttribute** - Marks methods as obsolete when accepting generic type params parameters.
 
 ## Installation
 
@@ -27,21 +23,19 @@ SunamoAttributes is part of the Sunamo package ecosystem, providing modular, pla
 dotnet add package SunamoAttributes
 ```
 
+## Target Frameworks
+
+`net10.0`, `net9.0`, `net8.0`
+
 ## Dependencies
 
-- **Microsoft.Extensions.Logging.Abstractions** (v9.0.3)
+- **Microsoft.Extensions.Logging.Abstractions**
 
-## Package Information
+## Links
 
-- **Package Name**: SunamoAttributes
-- **Version**: 25.6.7.1
-- **Target Framework**: net9.0
-- **Category**: Platform-Independent NuGet Package
-- **Source Files**: 16
-
-## Related Packages
-
-This package is part of the Sunamo package ecosystem. For more information about related packages, visit the main repository.
+- [NuGet](https://www.nuget.org/profiles/sunamo)
+- [GitHub](https://github.com/sunamo/PlatformIndependentNuGetPackages)
+- [Developer site](https://sunamo.cz)
 
 ## License
 

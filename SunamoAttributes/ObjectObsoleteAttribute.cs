@@ -1,10 +1,8 @@
 // variables names: ok
-// EN: Variable names have been checked and replaced with self-descriptive names
-// CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
 namespace SunamoAttributes;
 
 /// <summary>
-///     ObjectUse
+/// Marks a method as obsolete when it accepts object parameters. Indicates that a strongly-typed alternative should be used instead.
 /// </summary>
 public class ObjectObsoleteAttribute : Attribute
 {

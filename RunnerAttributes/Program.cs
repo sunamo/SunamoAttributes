@@ -1,8 +1,9 @@
 // variables names: ok
-// EN: Variable names have been checked and replaced with self-descriptive names
-// CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
 namespace RunnerAttributes;
 
+/// <summary>
+/// Entry point for the RunnerAttributes application.
+/// </summary>
 internal class Program
 {
     private static void Main()

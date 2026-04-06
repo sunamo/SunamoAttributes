@@ -1,20 +1,36 @@
 ### SunamoAttributes
 
-Part of PlatformIndependentNuGetPackages:
+Shared custom attributes for the Sunamo NuGet package ecosystem. Provides reusable attribute classes for serialization, mapping, validation, and deprecation marking in .NET applications.
 
-- [nuget.org](https://www.nuget.org/profiles/sunamo)
-- [github.org](https://github.com/sunamo/PlatformIndependentNuGetPackages)
+#### Included Attributes
 
-Another links:
+- **DataMemberAttribute** - Specifies the name of a data member for serialization or mapping.
+- **IgnoreAttribute** - Marks properties or fields to be ignored during processing or serialization.
+- **InnerObjectAttribute** - Base attribute for marking inner object properties or fields.
+- **MessageIfFailAttribute** - Specifies a custom error message displayed on validation or operation failure.
+- **NotTranslateAttribute** - Marks strings or properties that should not be translated.
+- **ObjectObsoleteAttribute** - Marks methods as obsolete when accepting object parameters.
+- **ObjectParamsAllowedAttribute** - Marks methods as intentionally accepting object params parameters.
+- **ObjectParamsObsoleteAttribute** - Marks methods as obsolete when accepting object params parameters.
+- **OuterObjectAttribute** - Marks outer object properties or classes.
+- **OuterObjectMapping** - Represents mapping information for an outer object including primary key and property information.
+- **PrimaryKeyAttribute** - Marks a property as a primary key identifier.
+- **TParamsObsoleteAttribute** - Marks methods as obsolete when accepting generic type params parameters.
 
+#### Installation
+
+```bash
+dotnet add package SunamoAttributes
+```
+
+#### Target Frameworks
+
+`net10.0`, `net9.0`, `net8.0`
+
+#### Links
+
+- [NuGet](https://www.nuget.org/profiles/sunamo)
+- [GitHub](https://github.com/sunamo/PlatformIndependentNuGetPackages)
 - [Developer site](https://sunamo.cz)
 
-Request for new features / bug report / etc: [Mail](mailto:radek.jancik@sunamo.cz) or on GitHub
-## Target Frameworks
-
-**TargetFrameworks:** `net10.0;net9.0;net8.0`
-
-**Reason:** Code uses C# 12.0 features (collection expressions, primary constructors) or dependencies requiring .NET 8.0+:
-- Collection expressions `[]` syntax requires C# 12.0 (net8.0+)
-- Primary constructors require C# 12.0 (net8.0+) 
-- Entity Framework Core 9.x requires net8.0+
+For feature requests or bug reports: [Email](mailto:radek.jancik@sunamo.cz) or open a GitHub issue.
