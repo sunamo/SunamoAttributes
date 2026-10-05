@@ -1,5 +1,10 @@
 # SunamoAttributes
 
+## Short description
+
+Sdílené vlastní atributy pro balíčky Sunamo. Poskytuje znovupoužitelné třídy atributů pro serializaci, mapování, validaci a označení zastaralého kódu.
+
+
 Shared custom attributes for the Sunamo NuGet package ecosystem. Provides reusable attribute classes for serialization, mapping, validation, and deprecation marking in .NET applications.
 
 ## Included Attributes
